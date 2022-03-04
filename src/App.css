@@ -23,3 +23,42 @@ body > div,
 	height: 100%;
 	width: 100%;
 }
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repear(auto-fit, minmax(12rem, 16rem));
+	gap: 2rem;
+	justify-content: center;
+}
+
+.project_card {
+	overflow: hidden;
+	box-shadow: 0 2px 20px;
+	margin: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+	transition: transform 200ms ease-in;
+}
+
+.card_title {
+	padding: 1rem;
+	text-align: center;
+}
+
+.card_description {
+	padding: 0 1rem;
+}
+
+.card_button {
+	padding: 1rem;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 1rem;
+	margin: 1rem;
+	border: 2px solid;
+	background: transparent;
+	transition: 200ms ease-in, color 200ms ease-in;
+}
