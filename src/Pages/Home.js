@@ -3,7 +3,9 @@ import {
 	Card,
 	CardBody,
 	CardTitle,
-	CardSubtitle,
+	Container,
+	Row,
+	Col,
 	CardText,
 	Button
 } from 'reactstrap';
@@ -14,49 +16,56 @@ function Home() {
 
 	return (
 		//<div className='background'>
-		<div className='container'>
-			<div className='row text-center m-5'>
+		<Container>
+			<Row className='text-center m-5'>
 				<h1>Welcome</h1>
-			</div>
-			<div className='row my-auto justify-content-center align-items-center mt-5'>
-				<div className='col-sm'>
+			</Row>
+			<Row className='my-auto justify-content-center align-items-center mt-5'>
+				<Col className='col-sm'>
 					<Card body color='info' inverse className='text-center m-3'>
 						<CardBody>
-							<CardTitle>First Card</CardTitle>
-							<CardSubtitle>First Card subtitle</CardSubtitle>
-							<CardText>Some Card Text</CardText>
+							<CardTitle className='fs-3'>About Me</CardTitle>
+
+							<CardText>
+								Information about my work history, education and personal
+								interests
+							</CardText>
 							<Button
 								onClick={() => {
 									navigate('/about');
 								}}
 							>
-								About
+								View About
 							</Button>
 						</CardBody>
 					</Card>
-				</div>
-				<div className='col-sm'>
+				</Col>
+				<Col className='col-sm'>
 					<Card body color='info' inverse className='text-center m-3'>
 						<CardBody>
-							<CardTitle>Second Card</CardTitle>
-							<CardSubtitle>First Card subtitle</CardSubtitle>
-							<CardText>Some Card Text</CardText>
+							<CardTitle className='fs-3'>Projects</CardTitle>
+
+							<CardText>
+								A collection of projects using various technical skills
+							</CardText>
 							<Button
 								onClick={() => {
 									navigate('/projects');
 								}}
 							>
-								Projects
+								View Projects
 							</Button>
 						</CardBody>
 					</Card>
-				</div>
-				<div className='col-sm'>
-					<Card body color='info' inverse className='text-center m-3'>
+				</Col>
+				<Col className='col-sm'>
+					<Card body color='info' inverse className='text-center m-3 '>
 						<CardBody>
-							<CardTitle>Third Card</CardTitle>
-							<CardSubtitle>First Card subtitle</CardSubtitle>
-							<CardText>Some Card Text</CardText>
+							<CardTitle className='fs-3'>Contact Me</CardTitle>
+							<CardText>
+								Contact information, including LinkedIn, Github and an email
+								contact
+							</CardText>
 							<Button
 								onClick={() => {
 									navigate('/contact');
@@ -66,9 +75,9 @@ function Home() {
 							</Button>
 						</CardBody>
 					</Card>
-				</div>
-			</div>
-		</div>
+				</Col>
+			</Row>
+		</Container>
 		//</div>
 	);
 }

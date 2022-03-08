@@ -14,7 +14,7 @@ function Contact() {
 				<div className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
-							<CardTitle>Github</CardTitle>
+							<CardTitle className='fs-2'>Github</CardTitle>
 							<div>
 								<a href='https://github.com/MLabreche9' target='blank'>
 									<FontAwesomeIcon icon={faGithub} size='7x' color='white' />
@@ -26,7 +26,7 @@ function Contact() {
 				<div className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
-							<CardTitle>LinkedIn</CardTitle>
+							<CardTitle className='fs-2'>LinkedIn</CardTitle>
 							<div>
 								<a
 									href='https://www.linkedin.com/in/meghan-labreche'
@@ -41,7 +41,7 @@ function Contact() {
 				<div className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
-							<CardTitle>Email</CardTitle>
+							<CardTitle className='fs-2'>Email</CardTitle>
 							<div>
 								<a href='mailto:mvlabreche@gmail.com' target='blank'>
 									<FontAwesomeIcon icon={faEnvelope} size='7x' color='white' />

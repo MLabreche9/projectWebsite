@@ -24,10 +24,23 @@ export default class Header extends React.Component {
 			isOpen: !this.state.isOpen
 		});
 	}
+
+	closeNavbar() {
+		this.setState({
+			isOpen: false
+		});
+	}
 	render() {
 		return (
 			<Navbar className='navbar' dark expand='xl' sticky='top'>
-				<NavbarBrand href='/projectWebsite/'>Meghan La Breche</NavbarBrand>
+				<NavbarBrand className='mr-auto' href='/projectWebsite/'>
+					<img
+						src='./assets/logo3.png'
+						height='70'
+						width='auto'
+						alt='Meghan LaBreche logo'
+					/>
+				</NavbarBrand>
 
 				<NavbarToggler onClick={this.toggle} />
 
@@ -35,7 +48,11 @@ export default class Header extends React.Component {
 					<Nav className='justify-content-end' style={{ width: '100%' }} navbar>
 						<NavItem>
 							<NavLink>
-								<Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
+								<Link
+									to='/'
+									style={{ textDecoration: 'none', color: 'white' }}
+									onClick={this.closeNavbar}
+								>
 									Home
 								</Link>
 							</NavLink>
@@ -45,6 +62,7 @@ export default class Header extends React.Component {
 								<Link
 									to='/about'
 									style={{ textDecoration: 'none', color: 'white' }}
+									onClick={this.closeNavbar}
 								>
 									About
 								</Link>
@@ -55,6 +73,7 @@ export default class Header extends React.Component {
 								<Link
 									to='/contact'
 									style={{ textDecoration: 'none', color: 'white' }}
+									onClick={this.closeNavbar}
 								>
 									Contact
 								</Link>
@@ -65,6 +84,7 @@ export default class Header extends React.Component {
 								<Link
 									to='/projects'
 									style={{ textDecoration: 'none', color: 'white' }}
+									onClick={this.closeNavbar}
 								>
 									Projects
 								</Link>

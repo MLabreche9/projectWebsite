@@ -1,13 +1,17 @@
 const projects = [
 	{
 		id: 0,
-		title: 'project 1',
-		description: 'project 1 descriptions'
+		title: 'Track Expenses',
+		description:
+			'An Expense Tracker Application in which you can add an expense, the amount, and the date. The expense is then added to a list which can be sorted by year.',
+		url: 'https://mlabreche9.github.io/trackExpenses/'
 	},
 	{
 		id: 1,
-		title: 'project 2',
-		description: 'project 2 descriptions'
+		title: 'Food Order App',
+		description:
+			'A React App in which you can add food items to a cart. Within the cart you can add or subtract items, and see your subtotal.',
+		url: 'https://mlabreche9.github.io/foodOrderCart/'
 	},
 	{
 		id: 2,

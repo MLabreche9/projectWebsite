@@ -5,7 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-	<div className='background'>
+	<div className='App'>
 		<React.StrictMode>
 			<App />
 		</React.StrictMode>

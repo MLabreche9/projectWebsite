@@ -1,7 +1,7 @@
 html,
 body,
-body > div,
-.app {
+#App,
+#App > div {
 	height: 100%;
 }
 
@@ -9,7 +9,7 @@ body > div,
 	background: #398798;
 }
 
-.background {
+.App {
 	color: white;
 	background: rgb(227, 222, 215);
 	background: linear-gradient(
@@ -17,48 +17,8 @@ body > div,
 		rgba(227, 222, 215, 1) 0%,
 		rgba(57, 135, 152, 1) 50%
 	);
-	background-size: cover;
 	min-width: 100%;
-	min-height: 100%;
+	min-height: 100vh;
 	height: 100%;
 	width: 100%;
-}
-
-.wrapper {
-	display: grid;
-	grid-template-columns: repear(auto-fit, minmax(12rem, 16rem));
-	gap: 2rem;
-	justify-content: center;
-}
-
-.project_card {
-	overflow: hidden;
-	box-shadow: 0 2px 20px;
-	margin: 20px;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-
-	justify-content: space-between;
-	transition: transform 200ms ease-in;
-}
-
-.card_title {
-	padding: 1rem;
-	text-align: center;
-}
-
-.card_description {
-	padding: 0 1rem;
-}
-
-.card_button {
-	padding: 1rem;
-	font-weight: bold;
-	border-radius: 10px;
-	font-size: 1rem;
-	margin: 1rem;
-	border: 2px solid;
-	background: transparent;
-	transition: 200ms ease-in, color 200ms ease-in;
 }
