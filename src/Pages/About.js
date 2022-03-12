@@ -26,10 +26,16 @@ function About() {
 			<Row className='text-center m-5'>
 				<h1> A Little Bit About Me</h1>
 			</Row>
-			<Nav tabs>
+			<Nav
+				tabs
+				className='justify-content-center align-items-center flex-column flex-sm-row'
+			>
 				<NavItem>
 					<NavLink
-						className={classnames({ active: activeTab === '1' })}
+						className={classnames({
+							active: activeTab === '1'
+						})}
+						style={{ textDecoration: 'none', color: '#a4ffbb' }}
 						onClick={() => {
 							toggle('1');
 						}}
@@ -40,6 +46,7 @@ function About() {
 				<NavItem>
 					<NavLink
 						className={classnames({ active: activeTab === '2' })}
+						style={{ textDecoration: 'none', color: '#a4ffbb' }}
 						onClick={() => {
 							toggle('2');
 						}}
@@ -50,33 +57,35 @@ function About() {
 				<NavItem>
 					<NavLink
 						className={classnames({ active: activeTab === '3' })}
+						style={{ textDecoration: 'none', color: '#a4ffbb' }}
 						onClick={() => {
 							toggle('3');
 						}}
 					>
-						Work History
+						Occupation
 					</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink
 						className={classnames({ active: activeTab === '4' })}
+						style={{ textDecoration: 'none', color: '#a4ffbb' }}
 						onClick={() => {
 							toggle('4');
 						}}
 					>
-						Personal Interests
+						Interests
 					</NavLink>
 				</NavItem>
 			</Nav>
 			<TabContent activeTab={activeTab}>
 				<TabPane tabId='1'>
-					<Row>
+					<Row className='my-3'>
 						<Col>
-							<h3>Education</h3>
+							<h4>Education</h4>
 							<List>
 								<ul>
 									<li>
-										<h4>Nucamp Coding Bootcamp</h4>
+										<h5>Nucamp Coding Bootcamp</h5>
 										<ul>
 											<li>
 												Full stack Web and Mobile App Developer Bootcamp | 2021
@@ -92,7 +101,7 @@ function About() {
 										</ul>
 									</li>
 									<li>
-										<h4>Udemy</h4>
+										<h5>Udemy</h5>
 										<ul>
 											<li>
 												The Complete Javascript Course 2021: From Zero to Expert
@@ -111,9 +120,9 @@ function About() {
 					</Row>
 				</TabPane>
 				<TabPane tabId='2'>
-					<Row>
+					<Row className='my-3'>
 						<Col>
-							<h3> My Skills include the following:</h3>
+							<h4> My Skills include the following:</h4>
 							<div className='row'>
 								<div className='col'>
 									<ul>
@@ -155,15 +164,15 @@ function About() {
 					</Row>
 				</TabPane>
 				<TabPane tabId='3'>
-					<Row>
+					<Row className='my-3'>
 						<Col>
-							<h3>Professional Experience</h3>
+							<h4>Professional Experience</h4>
 							<List>
 								<ul>
-									<h4>Gemological Institute of America</h4>
-									<h5>
+									<h5>Gemological Institute of America</h5>
+									<p>
 										<i>Quality Specialist</i> July 2013-Present
-									</h5>
+									</p>
 									<ul>
 										<li>
 											responsibilities include monitoring and analyzing the
@@ -195,7 +204,7 @@ function About() {
 					</Row>
 				</TabPane>
 				<TabPane tabId='4'>
-					<Row>
+					<Row className='my-3'>
 						<Col>
 							<p>
 								{' '}
@@ -204,7 +213,7 @@ function About() {
 								time consists of going to soccer practice and swimming lessons.
 								When we are not running around handling daily activities, we
 								like to spend time together outside, whether it be the beach,
-								park, or zoo /{' '}
+								park, or zoo{' '}
 							</p>
 							<p>
 								In the free time I do find, I love to read, usually tackling

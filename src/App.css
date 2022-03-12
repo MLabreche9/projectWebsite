@@ -22,3 +22,29 @@ body,
 	height: 100%;
 	width: 100%;
 }
+
+.button_style {
+	transition: transform 200ms ease-in;
+}
+
+.header_link {
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+.about_link {
+	text-decoration: none;
+	color: white;
+	font-size: large;
+}
+
+.about_link:active {
+	text-decoration: none;
+	color: #398798;
+	background: white;
+}
+
+.NavLink.active {
+	background-color: rgb(212, 59, 84);
+}

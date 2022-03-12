@@ -1,17 +1,17 @@
 import React from 'react';
-import { Card, CardTitle, CardBody } from 'reactstrap';
+import { Card, CardTitle, CardBody, Container, Row, Col } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 	return (
-		<div className='container'>
-			<div className='row text-center m-5'>
+		<Container>
+			<Row className=' text-center m-5'>
 				<h1>Let's Connect</h1>
-			</div>
-			<div className='row'>
-				<div className='col-sm'>
+			</Row>
+			<Row>
+				<Col className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
 							<CardTitle className='fs-2'>Github</CardTitle>
@@ -22,8 +22,8 @@ function Contact() {
 							</div>
 						</CardBody>
 					</Card>
-				</div>
-				<div className='col-sm'>
+				</Col>
+				<Col className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
 							<CardTitle className='fs-2'>LinkedIn</CardTitle>
@@ -37,8 +37,8 @@ function Contact() {
 							</div>
 						</CardBody>
 					</Card>
-				</div>
-				<div className='col-sm'>
+				</Col>
+				<Col className='col-sm'>
 					<Card body color='info' inverse className='text-center m-5'>
 						<CardBody>
 							<CardTitle className='fs-2'>Email</CardTitle>
@@ -49,9 +49,9 @@ function Contact() {
 							</div>
 						</CardBody>
 					</Card>
-				</div>
-			</div>
-		</div>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 
