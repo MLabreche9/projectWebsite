@@ -114,6 +114,12 @@ function About() {
 											<li>The Complete React Native + hooks Course | 2021</li>
 										</ul>
 									</li>
+									<li>
+										<h5>State University of New York, Purchase College</h5>
+										<ul>
+											<li>B.A. History | 2006</li>
+										</ul>
+									</li>
 								</ul>
 							</List>
 						</Col>
@@ -175,8 +181,10 @@ function About() {
 									</p>
 									<ul>
 										<li>
-											responsibilities include monitoring and analyzing the
-											output of our facilities product
+											Responsibilities include monitoring and analyzing the
+											output of our facilities product through blind controls,
+											developing training materials, and re-examining parameters
+											of our reports by request of our clients.
 										</li>
 										<li>
 											For the past two years my team has worked closely with
@@ -208,18 +216,19 @@ function About() {
 						<Col>
 							<p>
 								{' '}
+								In the free time I do find, I love to read, usually tackling
+								whatever is on the NY Times bestseller list at the moment. I
+								find time to listen to podcasts - my favorite topics are
+								personal finance, economics and True Crime. RadioLab, Crime
+								Junkies, and Planet Money are in the weekly rotation.
+							</p>
+							<p>
 								My other full time job is being a mom of two. While I used to
 								swim competively and play on soccer teams myself, these days my
 								time consists of going to soccer practice and swimming lessons.
 								When we are not running around handling daily activities, we
 								like to spend time together outside, whether it be the beach,
 								park, or zoo{' '}
-							</p>
-							<p>
-								In the free time I do find, I love to read, usually tackling
-								whatever is on the NY Times bestseller list at the moment. I
-								find time to listen to podcasts - my favorite topics are
-								personal finance, economics and True Crime.
 							</p>
 						</Col>
 					</Row>

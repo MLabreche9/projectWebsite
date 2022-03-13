@@ -23,10 +23,6 @@ body,
 	width: 100%;
 }
 
-.button_style {
-	transition: transform 200ms ease-in;
-}
-
 .header_link {
 	text-decoration: none;
 	color: white;
@@ -45,6 +41,6 @@ body,
 	background: white;
 }
 
-.NavLink.active {
-	background-color: rgb(212, 59, 84);
+p {
+	text-indent: 20px;
 }

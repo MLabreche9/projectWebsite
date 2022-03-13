@@ -16,12 +16,12 @@ function Home() {
 	let navigate = useNavigate();
 
 	return (
-		<Container>
+		<Container className='container-fluid'>
 			<Row className='text-center m-5'>
 				<h1>Welcome</h1>
 			</Row>
-			<CardDeck>
-				<Row className=' mt-5'>
+			<CardDeck className=''>
+				<Row className=' mt-5 flex-column flex-lg-row'>
 					<Col>
 						<Card body color='info' inverse className='text-center m-3 '>
 							<CardBody>
@@ -31,6 +31,7 @@ function Home() {
 									Information about my work history, education and personal
 									interests
 								</CardText>
+
 								<Button
 									onClick={() => {
 										navigate('/about');
@@ -49,6 +50,7 @@ function Home() {
 								<CardText>
 									A collection of projects using various technical skills
 								</CardText>
+
 								<Button
 									onClick={() => {
 										navigate('/projects');
@@ -64,9 +66,9 @@ function Home() {
 							<CardBody>
 								<CardTitle className='fs-3'>Contact Me</CardTitle>
 								<CardText>
-									Contact information, including LinkedIn, Github and an email
-									contact
+									Contact information, including LinkedIn, Github and email
 								</CardText>
+
 								<Button
 									onClick={() => {
 										navigate('/contact');

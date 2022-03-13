@@ -17,10 +17,10 @@ function Header() {
 
 	return (
 		<Navbar className='navbar' dark expand='xl' sticky='top'>
-			<NavbarBrand className=' pl-5' href='/projectWebsite/'>
+			<NavbarBrand className='mr-auto' href='/projectWebsite/'>
 				<img
 					src='./assets/MLLogo2.png'
-					height='100px'
+					height='125px'
 					width='auto'
 					alt='Meghan LaBreche logo'
 				/>
