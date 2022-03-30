@@ -177,33 +177,80 @@ function About() {
 								<ul>
 									<h5>Gemological Institute of America</h5>
 									<p>
-										<i>Quality Specialist</i> July 2013-Present
+										<i>Quality Specialist</i> May 2016-Present
 									</p>
 									<ul>
 										<li>
-											Responsibilities include monitoring and analyzing the
-											output of our facilities product through blind controls,
-											developing training materials, and re-examining parameters
-											of our reports by request of our clients.
+											Monitored the quality of the company’s product through
+											various systems of observation and analyzation. Created
+											and implemented blind controls, examined existing reports
+											for errors and detail, assessed parameters at client
+											requests, and studied data to target trends and develop
+											solutions
 										</li>
 										<li>
-											For the past two years my team has worked closely with
-											research and development to train an artifical
-											intelligence program to assist in our productivity and
-											quality. My role was to collect data and provide feedback
-											to help develop instrumentation and a workflow process
+											Collaborated on site with local teams in Johannesburg,
+											South Africa (2016), and New York City, New York (2019) to
+											discuss and improve global alignment.
 										</li>
 										<li>
-											The results of this process are in the testing phase and
-											will be roled out globally Spring of 2022, I am leading
-											and training teams to implement this process
+											Collaborated as a member of a specialized team to collect
+											data and offer feedback to develop targeted
+											instrumentation and software to improve the quality output
+											of our product. As the process was developed I would
+											perform quality assurance assistance to test the product
+											through various stages. As the workflow process was
+											implemented, I led training to additional teams throughout
+											the company.{' '}
+											<br>
+												<i>
+													Read the press release{' '}
+													<a
+														href='https://www.ibm.com/case-studies/gemological-institute-of-america/'
+														target='blank'
+													>
+														here
+													</a>
+												</i>
+											</br>
+										</li>
+									</ul>
+									<p>
+										<i>Training Specialist</i> July 2014-April 2016
+									</p>
+									<ul>
+										<li>
+											Led and worked with teams to train consecutive new hire
+											groups consisting of 30+ people in California, India and
+											Africa to instill proper methods of diamond grading and
+											company procedures
 										</li>
 										<li>
-											From 2014-2016 I worked with training and development. I
-											developed training materials and led new hire groups
-											consisting of 30+ people, training new hires on proper
-											policies, procedures and processes by giving
-											presentations, feedback, and leading hands on training
+											Working with Training and Development I collaborated to
+											produce training materials, led presentations and training
+											exercises, and provided hands on training to foster the
+											development of our new hires and entry level employees
+										</li>
+										<li>
+											August 2014-October 2014, traveled and assisted in
+											training new hire groups in Mumbai, India. Helped develop
+											the first iteration of digital training for new hires.
+										</li>
+										<li>
+											April 2015-June 2015 traveled and led a new hire group in
+											Gaborone, Botswana, Africa. As lead trainer I managed the
+											daily and weekly lesson plans, collaborated with local
+											assistant trainers on the daily workflow and guided the
+											progress of new hires to successful completion.
+										</li>
+									</ul>
+									<p>
+										<i>Staff Gemologist</i> July 2013-June 2014
+									</p>
+									<ul>
+										<li>
+											Consistently met and exceeded daily productivity numbers
+											for providing detailed diamond grading reports
 										</li>
 									</ul>
 								</ul>
