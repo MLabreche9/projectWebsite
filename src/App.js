@@ -7,12 +7,10 @@ import Project from './Pages/Project';
 import Home from './Pages/Home';
 import ErrorPage from './Pages/Error';
 import Header from './components/HeaderComponent';
-import EnterModal from './components/ModalComponent';
 
 function App() {
 	return (
 		<>
-			<EnterModal />
 			<BrowserRouter basename={process.env.PUBLIC_URL}>
 				<Header />
 				<Routes>

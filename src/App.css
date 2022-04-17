@@ -5,42 +5,80 @@ body,
 	height: 100%;
 }
 
-.navbar {
-	background: #398798;
-}
-
 .App {
 	color: white;
-	background: rgb(227, 222, 215);
+	/*background: rgb(227, 222, 215);
 	background: linear-gradient(
-		to left top,
-		rgba(227, 222, 215, 1) 0%,
-		rgba(57, 135, 152, 1) 50%
-	);
+		190deg,
+		rgba(227, 222, 215, 1) 18%,
+		rgba(0, 0, 0, 1) 54%
+	);*/
+	background: rgb(0, 0, 0);
+
 	min-width: 100%;
 	min-height: 100vh;
 	height: 100%;
 	width: 100%;
 }
 
+p {
+	font-family: 'Montserrat', sans-serif;
+	text-indent: 20px;
+}
+
+h1 {
+	font-family: 'Calistoga', cursive;
+}
+
+/*-------NAVIGATION COMPONENT---------*/
+.navbar {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 1%,
+		rgba(255, 255, 255, 0.7875525210084033) 33%
+	);
+}
+
 .header_link {
+	font-family: 'Calistoga', cursive;
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-size: large;
+}
+
+.header_link:hover {
+	color: rgb(226, 89, 39);
+}
+
+/* ------- HOME PAGE --------*/
+.home-links {
+	margin: 3rem;
+	cursor: pointer;
+	font-family: 'Calistoga', cursive;
+}
+
+.home-links:hover {
+	color: rgb(226, 89, 39);
+}
+
+/* ---------ABOUT PAGE----------- */
+.word {
+	color: rgb(226, 89, 39);
+	font-size: 1.4em;
+	font-family: 'Calistoga', cursive;
 }
 
 .about_link {
 	text-decoration: none;
 	color: white;
-	font-size: large;
+	font-size: 1.4em;
+	font-family: 'Calistoga', cursive;
 }
 
 .about_link:active {
 	text-decoration: none;
-	color: #398798;
-	background: white;
+	color: rgb(226, 89, 39);
 }
 
-p {
-	text-indent: 20px;
-}
+/* ------ PROJECT PAGE --------*/
