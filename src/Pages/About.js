@@ -141,17 +141,19 @@ function About() {
 					{/* --------------------------SKILLS--------------------------- */}
 					<TabPane tabId='2'>
 						<Row className='my-3'>
-							<Col className='text-center'>
+							<Col className='text-center mb-5'>
 								<h4 className='my-3 word'> My Skills include the following:</h4>
-								<p>Languages: JavaScript, HTML, CSS</p>
+								<p>Languages : JavaScript, HTML, CSS</p>
 								<p>
-									Frameworks: React, React Native, Node, Express, Bootstrap,
-									Redux
+									Libraries and Frameworks : React, React Native, Next, Express,
+									Bootstrap, Reactstrap, Redux, Mongoose
 								</p>
-								<p>Databases: Mongoose, MongoDB</p>
-								<p>Tools: VS Code, Git, Github, Postman, Terminal, Compass</p>
+								<p>Runtime Environments : Node</p>
+
+								<p>Databases : MongoDB</p>
+								<p>Tools : VS Code, Git, Github, Postman, Terminal, Compass</p>
 								<p>
-									Soft Skills: Teamwork, Collaboration, Analytical,
+									Soft Skills : Teamwork, Collaboration, Analytical,
 									Detail-orientated
 								</p>
 							</Col>
@@ -168,7 +170,7 @@ function About() {
 								</h4>
 							</Row>
 							<Row>
-								<h5 className='text-center mb-4'>
+								<h5 className='text-center mb-4 line_spacing'>
 									Throughout my career I have developed many valuable skills.
 									Through <span className='word'>Collaboration</span> with my
 									teammates, we have analyzed data and targeted trends to
@@ -226,7 +228,7 @@ function About() {
 										</ul>
 									</List>
 								</Col>
-								<Col className='col-sm d-inline-block text-center m-auto'>
+								<Col className='col-sm d-inline-block text-center m-auto d-none d-lg-block'>
 									<FontAwesomeIcon
 										icon={faChartColumn}
 										size='10x'
@@ -235,7 +237,7 @@ function About() {
 								</Col>
 							</Row>
 							<Row className=''>
-								<Col className='col-sm d-inline-block text-center m-auto'>
+								<Col className='col-sm d-inline-block text-center m-auto d-none d-lg-block'>
 									<FontAwesomeIcon
 										icon={faChalkboardUser}
 										size='10x'
@@ -298,7 +300,7 @@ function About() {
 										</ul>
 									</List>
 								</Col>
-								<Col className='col-sm d-inline-block text-center m-auto'>
+								<Col className='col-sm d-inline-block text-center m-auto d-none d-lg-block'>
 									<FontAwesomeIcon icon={faGem} size='10x' color='white' />
 								</Col>
 							</Row>
@@ -325,7 +327,7 @@ function About() {
 									be the beach, park, or zoo{' '}
 								</p>
 							</Col>
-							<Col className='col-sm text-center align-middle'>
+							<Col className='col-sm text-center align-middle mb-5'>
 								{/* <Row>
 								<Col className='d-inline-block text-center m-auto'>
 									<img

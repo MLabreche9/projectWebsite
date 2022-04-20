@@ -12,7 +12,7 @@ function Project() {
 						className='align-items-center justify-content-center my-5'
 						key={project.id}
 					>
-						<Col className='align-items-center justify-content-center m-2 col-sm-4'>
+						<Col className='align-items-center justify-content-center m-2 col-12 col-sm-4'>
 							<img
 								src={project.image}
 								alt='project'
@@ -55,7 +55,7 @@ function Project() {
 					</Row>
 				))}
 				<Row className='text-center my-5'>
-					<Col className='col-sm-9 my-5'>
+					<Col className='col-12 col-md-9 my-5'>
 						<p>
 							{' '}
 							Feel free to view the source code for this website, in which I
@@ -65,7 +65,7 @@ function Project() {
 							array of objects.
 						</p>
 					</Col>
-					<Col className='col-sm-3 my-5'>
+					<Col className='col-md-3 my-5'>
 						<Button className='m-2'>
 							<a
 								href='https://github.com/MLabreche9/projectWebsite'

@@ -36,7 +36,7 @@ h1 {
 	background: linear-gradient(
 		0deg,
 		rgba(0, 0, 0, 1) 1%,
-		rgba(255, 255, 255, 0.7875525210084033) 33%
+		rgba(255, 255, 255, 0.7875525210084033) 10%
 	);
 }
 
@@ -67,6 +67,10 @@ h1 {
 	color: rgb(226, 89, 39);
 	font-size: 1.4em;
 	font-family: 'Calistoga', cursive;
+}
+
+.line_spacing {
+	line-height: 2em;
 }
 
 .about_link {

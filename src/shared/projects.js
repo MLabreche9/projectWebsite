@@ -28,7 +28,28 @@ const projects = [
 		url: 'https://mlabreche9.github.io/foodOrderCart/',
 		code: 'https://github.com/MLabreche9/foodOrderCart',
 		image: './Food_img.png'
+	},
+	{
+		id: 3,
+		title: 'Exercise Tracker',
+		description:
+			'A project built through the Udemy Course - JavaScript The Complete Guide. In this project a Workout class was declared, and two child classes - Running and Cycling created. A user is able to click on the map and enter information about thier workout and it will be saved to the sidebar. The information is saved across browser sessions with the localStorage API ',
+		tech: 'HTML, CSS, JavaScript, Leaflet Library/Geolocation API, localStorage API',
+		url: 'https://mlabreche9.github.io/exerciseMap/',
+		code: 'https://github.com/MLabreche9/exerciseMap',
+		image: './Map_img.png'
 	}
+
+	// {
+	// 	id: 4,
+	// 	title: 'Exercise Tracker App',
+	// 	description:
+	// 		'A project built through the Udemy Course - JavaScript The Complete Guide. ',
+	// 	tech: 'HTML, CSS, JavaScript',
+	// 	url: 'https://mlabreche9.github.io/exerciseMap/',
+	// 	code: 'https://github.com/MLabreche9/exerciseMap',
+	// 	image: './Map_img.png'
+	// }
 ];
 
 export default projects;
