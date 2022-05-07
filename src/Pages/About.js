@@ -107,7 +107,7 @@ function About() {
 						<Row className='my-5 text-center'>
 							<h5 className='word'>Nucamp Coding Bootcamp</h5>
 							<p>
-								<i>Full stack Web and Mobile App Developer Bootcamp | 2021</i>
+								<i>Full stack Web and Mobile App Developer Bootcamp</i>
 							</p>
 							<p>
 								Bootcamp with a focus on Boostrap, React, React Native, NodeJS,
@@ -120,22 +120,16 @@ function About() {
 						</Row>
 						<Row className='my-5 text-center'>
 							<h5 className='word'>Udemy</h5>
-							<p>
-								The Complete Javascript Course 2021: From Zero to Expert | 2021
-							</p>
-							<p>
-								React-The Complete Guide(incl Hooks, React Router, Redux) | 2021
-							</p>
-							<p>The Complete React Native + hooks Course | 2021</p>
-							<p>
-								Node.js, Express, MongoDB and More: The Complete Bootcamp | 2022
-							</p>
+							<p>The Complete Javascript Course 2021: From Zero to Expert</p>
+							<p>React-The Complete Guide(incl Hooks, React Router, Redux)</p>
+							<p>The Complete React Native + hooks Course</p>
+							<p>Node.js, Express, MongoDB and More: The Complete Bootcamp</p>
 						</Row>
 						<Row className='my-5 text-center'>
 							<h5 className='word'>
 								State University of New York, Purchase College
 							</h5>
-							<p>B.A. History | 2006</p>
+							<p>B.A. History</p>
 						</Row>
 					</TabPane>
 					{/* --------------------------SKILLS--------------------------- */}
@@ -177,8 +171,8 @@ function About() {
 									improve the <span className='word'>Quality</span> of our
 									output. I have the ability to{' '}
 									<span className='word'>Lead</span> teams and{' '}
-									<span className='word'>Manage</span> projects, developing
-									curriculums and implementing training.
+									<span className='word'>Manage</span> projects, developed
+									curriculums and implemented training.
 								</h5>
 							</Row>
 							<Row className='align-middle my-5'>
